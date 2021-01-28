@@ -53,7 +53,10 @@ cd linux-minidisc/netmd
 ./lsmd.py
 ```
 * The outcome will look like:
-!(Screen Shot 2021-01-28 at 17.05.17.png)
+![list contents](Screen Shot 2021-01-28 at 17.05.17.png)
+
+* If protected contents are included (e.g. those imported through SonicStage), the outcome will look like:
+![list contents protected]
 
 ### How-to Upload Contents ###
 * Using, Sony's MZ-RH1/M200, you can upload tracks from MD player to your computer.
