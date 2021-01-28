@@ -14,6 +14,9 @@ MD players are backward compatible, which means a Hi-MD player is able to playba
 Traditionally, it is only through Sony's proprietary Windows-only software SonicStage that users could transfer contents between MiniDiscs (on NetMD above models) and local computers. With the open-source scripts, the content transfer process is made more flexible.
 
 
+## Where to Go ##
+
+
 ## Good to Know Before Started ##
 The current linux-minidisc and NetMDPython are designed for NetMD devices. For now, they can work with *unprotected* audio tracks recorded in *non-Hi-MD modes*. It is found that, analog-recorded tracks are usually unprotected. All tracks uploaded by SonicStage are protected (back then, general users used SonicStage to transfer music into their players and make their mixtapes). Surprisingly, tracks uploaded by MD Simple Burner are not. 
 As this file is designed for audiovisual archivists, and considering that MiniDisc archival collections usually store analog-input audio information (e.g. interview), there is good chance that contents would be mostly unprotected.
