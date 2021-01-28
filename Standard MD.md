@@ -77,5 +77,7 @@ sudo port install ffmpeg-devel
 
 * The uploaded tracks saved in your local directory will be in this structure:
 
+![after_upload](after_upload.png)
 
-* If the above command-lines fail to work out of blue, try unplug the MD player from the computer, unload the disc, terminate the Terminal, and re-connect everything again.
+
+* *If the above command-lines fail to work out of blue, try unplug the MD player from the computer, unload the disc, terminate the Terminal, and re-connect everything again.*
