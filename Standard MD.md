@@ -60,6 +60,8 @@ cd linux-minidisc/netmd
 ``` bash
 sudo port install ffmpeg-devel
 ```
+(if FFmpeg is already installed in your computer, skip this step.)
+
 * To upload unprotected audio tracks from MD disc to computer by using Sony's MZ-RH1/M200:
 ``` bash
 ./upload.py
