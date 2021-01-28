@@ -47,11 +47,14 @@ cd linux-minidisc/netmd
 ```
 (The Python *libnetmd* can be found in the *netmd* subdirectory in the "linux-minidisc" folder)
 
-### How-to ###
+### How-to List Contents ###
 * To list what you have in the MD disc, type:
 ``` bash
 ./lsmd.py
 ```
+* The outcome will look like:
+
+### How-to Upload Contents ###
 * Using, Sony's MZ-RH1/M200, you can upload tracks from MD player to your computer.
 * Before you can successfully upload tracks from MD player to computer, you need to install FFmpeg (an open-source media encoding and processing application), which will be used for regconizing and transcoding ATRAC information.
 * To install FFmpeg, 
