@@ -15,6 +15,8 @@ Traditionally, it is only through Sony's proprietary Windows-only software Sonic
 
 
 ## Where to Go ##
+* For transfer contents from standard-MD formatted discs to local computer, visit here.
+* For transfer contents from Hi-MD formatted discs to local computer, visit [here](Hi-MD.md)
 
 
 ## Good to Know Before Started ##
