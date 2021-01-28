@@ -43,5 +43,11 @@ cd linux-minidisc/netmd
 ```
 * Using, Sony's MZ-RH1/M200, you can upload tracks from MD player to your computer.
 * Before you can successfully upload tracks from MD player to computer, you need to install FFmpeg (an open-source media encoding and processing application), which will be used for regconizing and transcoding ATRAC information.
-*
-* Before you can successfully upload tracks from MD player to computer, you need to install FFmpeg (an open-source media encoding and processing application), which will be used for regconizing and transcoding ATRAC information. 
+* To install FFmpeg, 
+``` bash
+sudo port install ffmpeg-devel
+```
+* To upload unprotected audio tracks from MD disc to computer by using Sony's MZ-RH1/M200:
+``` bash
+./upload.py
+```
