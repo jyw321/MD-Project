@@ -4,7 +4,14 @@ This is a walk-through of transferring digital contents stored in standard-MD fo
 
 ## Good to Know Before Started ##
 The current NetMDPython are designed for NetMD devices. For now, they can work with *unprotected* audio tracks recorded in *non-Hi-MD modes*. It is found that, analog-recorded tracks are usually unprotected. All tracks uploaded by SonicStage are protected (back then, general users used SonicStage to transfer music into their players and make their mixtapes). Surprisingly, tracks uploaded by MD Simple Burner are not. 
+
 As this file is designed for audiovisual archivists, and considering that MiniDisc archival collections usually store analog-input audio information (e.g. interview), there is good chance that contents would be mostly unprotected.
+
+## My Equipment ##
+* iMac (macOS Catalina version 10.15.7) 
+* Sony MZ-M200 Hi-MD
+* USB 2.0 port to connect MD with Mac
+* Several MD discs with protected and unprotected audio information recorded in SD, LP2 and LP4 modes.
 
 
 ## Workflow ##
