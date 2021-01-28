@@ -46,11 +46,11 @@ cd linux-minidisc/netmd
 
 * The outcome will look like:
 
-![list contents](https://github.com/jyw321/MD/blob/main/Screen%20Shot%202021-01-28%20at%2017.05.17.png)
+![list contents](unprotected-list.png)
 
 * If protected contents are included (e.g. those imported through SonicStage), the outcome will look like:
 
-![list contents protected](https://github.com/jyw321/MD/blob/main/Screen%20Shot%202021-01-28%20at%2017.07.00.png)
+![list contents protected](protected.png)
 
 
 ### How-to Upload Contents from MD to Mac ###
