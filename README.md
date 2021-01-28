@@ -53,6 +53,7 @@ cd linux-minidisc/netmd
 ./lsmd.py
 ```
 * The outcome will look like:
+!(Screen Shot 2021-01-28 at 17.05.17.png)
 
 ### How-to Upload Contents ###
 * Using, Sony's MZ-RH1/M200, you can upload tracks from MD player to your computer.
