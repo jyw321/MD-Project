@@ -52,17 +52,18 @@ cd linux-minidisc/netmd
 ``` bash
 ./lsmd.py
 ```
+* The content list will contain total number of recorded tracks, track titles and time-stamps, protection status, and track recording modes.
+
 * The outcome will look like:
 
-![list contents](https://github.com/jyw321/MD/blob/main/Screen%20Shot%202021-01-28%20at%2017.05.17.png =100x20)
+![list contents](https://github.com/jyw321/MD/blob/main/Screen%20Shot%202021-01-28%20at%2017.05.17.png)
 
 * If protected contents are included (e.g. those imported through SonicStage), the outcome will look like:
 
 ![list contents protected](https://github.com/jyw321/MD/blob/main/Screen%20Shot%202021-01-28%20at%2017.07.00.png)
 
-* 
 
-### How-to Upload Contents ###
+### How-to Upload Contents from MD to Mac ###
 * Using, Sony's MZ-RH1/M200, you can upload tracks from MD player to your computer.
 * Before you can successfully upload tracks from MD player to computer, you need to install FFmpeg (an open-source media encoding and processing application), which will be used for regconizing and transcoding ATRAC information.
 * To install FFmpeg, 
@@ -74,6 +75,8 @@ sudo port install ffmpeg-devel
 ./upload.py
 ```
 (protected tracks will be skipped automatically)
+
 * Upon retrieving the tracks, they will be saved in a subfolder under the *netmd* directory. SD tracks are saved as .aea format and LP2/LP4 tracks into .wav. 
 (MediaInfo or ExifTool are not able to identify the codec of the .aea format. But FFProbe could recognize the ATRAC1 codec of .aea files.)
+
 * If the above command-lines fail to work out of blue, try unplug the MD player from the computer, unload the disc, terminate the Terminal, and re-connect everything again.
