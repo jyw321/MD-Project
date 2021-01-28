@@ -15,9 +15,8 @@ Traditionally, it is only through Sony's proprietary Windows-only software Sonic
 
 
 ## Where to Go ##
-* For transfer contents from standard-MD formatted discs to local computer, visit here.
+* For transfer contents from standard-MD formatted discs to local computer, visit [here](Standard MD.md).
 * For transfer contents from Hi-MD formatted discs to local computer, visit [here](Hi-MD.md)
-
 
 ## Good to Know Before Started ##
 The current linux-minidisc and NetMDPython are designed for NetMD devices. For now, they can work with *unprotected* audio tracks recorded in *non-Hi-MD modes*. It is found that, analog-recorded tracks are usually unprotected. All tracks uploaded by SonicStage are protected (back then, general users used SonicStage to transfer music into their players and make their mixtapes). Surprisingly, tracks uploaded by MD Simple Burner are not. 
