@@ -16,3 +16,7 @@ The current linux-minidisc and NetMDPython are designed for NetMD devices. For n
 ## Workflow ##
 
 * Download and install [Macports](http://www.macports.org).
+* After installing macports, you'll need to modify your .bashrc in your home-directory by adding ”/opt/local/bin” to the PATH-environment. In the terminal (Applications→Utilities→Terminal), type: 
+```bash
+echo "PATH=$PATH:/opt/local/bin" >> ~/.bashrc
+```
