@@ -4,7 +4,7 @@ This is my testing project based on the existing coding scripts established by [
 In 1992, Sony launched a born-digital optical disc based media format called MiniDisc. Audio information is written onto discs via the magneto-optical mechanism. Sony invented the ATRAC (Adaptive Transform Acoustic Coding) algorithm to largely compress audio data being recorded. Therefore, the size of MiniDisc is significantly smaller than its counterpart compact disc (CD). With the magneto-optical mechanism, MiniDisc is rewritable and track-tracing enabled. Sony discontinued manufacturing MiniDisc recorder-player in 2013, making MiniDisc an obsolete media format. Over the years, there are two types of discs being invented: standard MD and Hi-MD. Based on different ATRAC data processing mechanisms, audio information could be recorded in standard mode (SD) and long-play mode (LP2 and LP4). NetMD was launched in the early 2000s, allowing users to directly transfer music tracks from personal computers to MD recorder-players via a USB port through a Sony proprietary software. With the invention of Hi-MD discs and Hi-MD recorder-player, the ATRAC algorithm is upgraded to a system called DWDD (Domain Wall Displacement Detection), which is a data compression mechanism applied on recording Hi-MDs. Hi-MD could carry audio information and non-audio digital files. 
 MD players are backward compatible, which means a Hi-MD player is able to playback MiniDiscs with audio information recorded in different modes. But the recording capability of different generations of MD players varies. 
 
-The current linux-minidisc and NetMDPython are designed for NetMD devices. For now, they can work with audio tracks recorded in non-Hi-MD modes. Codes of Hi-MD compatability are under development. More discussion could be found [here](https://github.com/gavinbenda/platinum-md/issues/40) and [here](https://github.com/gavinbenda/platinum-md/issues/11).
+The current linux-minidisc and NetMDPython are designed for NetMD devices. For now, they can work with *unprotected* audio tracks recorded in *non-Hi-MD modes*. Scripts with Hi-MD compatability are under development. More discussion could be found [here](https://github.com/gavinbenda/platinum-md/issues/40), [here](https://github.com/gavinbenda/platinum-md/issues/11), and [here](https://wiki.physik.fu-berlin.de/linux-minidisc/doku.php?id=start#source_code).
 
 ## My Equipment ##
 #### iMac (macOS Catalina version 10.15.7) ####
@@ -14,9 +14,34 @@ The current linux-minidisc and NetMDPython are designed for NetMD devices. For n
 
 
 ## Workflow ##
-
+### Set-up ###
 * Download and install [Macports](http://www.macports.org).
 * After installing macports, you'll need to modify your .bashrc in your home-directory by adding ”/opt/local/bin” to the PATH-environment. In the terminal (Applications→Utilities→Terminal), type: 
 ```bash
 echo "PATH=$PATH:/opt/local/bin" >> ~/.bashrc
 ```
+* Then install the ports *git-core* and *libusb* from Macports:
+```bash
+sudo port install libusb git-core py26-crypto sox
+```
+* Clone the codes with *git* into your local root directory. 
+``` bash
+git clone https://github.com/glaubitz/linux-minidisc/
+```
+* Insert MD disc into MD player (the player should be switched on automatically).
+* Connect MD player with Mac via a USB port.
+* In Terminal, type:
+``` bash
+cd linux-minidisc/netmd
+```
+(The Python *libnetmd* can be found in the *netmd* subdirectory in the "linux-minidisc" folder)
+
+### How-to ###
+* To list what you have in the MD disc, type:
+``` bash
+./lsmd.py
+```
+* Using, Sony's MZ-RH1/M200, you can upload tracks from MD player to your computer.
+* Before you can successfully upload tracks from MD player to computer, you need to install FFmpeg (an open-source media encoding and processing application), which will be used for regconizing and transcoding ATRAC information.
+*
+* Before you can successfully upload tracks from MD player to computer, you need to install FFmpeg (an open-source media encoding and processing application), which will be used for regconizing and transcoding ATRAC information. 
