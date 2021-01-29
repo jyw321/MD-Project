@@ -26,5 +26,8 @@ brew link --force qt5
 ## How-to ##
 * Insert the Hi-MD formatted disc into the MD player. The player will be switched on automatically
 * Connect the MD player with the computer via USB port
-* Open the *"qhimdtransfer-0.9.14-4-gc4696f0-macos"* file folder, and open the *"QHiMDTransfer"* executable program.
+* Open the *"qhimdtransfer-0.9.14-4-gc4696f0-macos"* file folder, and open the *"QHiMDTransfer"* executable program. (This is the GUI version)
+![qhimdtransfer](qhimdtransfer.jpg)
+
+
 
