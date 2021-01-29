@@ -14,7 +14,8 @@ With the development of the [QHiMDTransfer](https://wiki.physik.fu-berlin.de/lin
 
 
 ## Set Up ##
-* Download the whole set of codes [here](https://github.com/thp/linux-minidisc/releases/tag/0.9.14.1) (download the Mac or Windows versions according to needs)
+* Download the whole set of codes in zip file from [here](https://github.com/thp/linux-minidisc/releases/tag/0.9.14.1) (download the Mac or Windows versions according to needs)
+* Unzip the downloaded zip file (the file folder name looks like *"qhimdtransfer-0.9.14-4-gc4696f0-macos"*)
 * Building and Running the dependencies (compilings for different operation systems, see [here](https://wiki.physik.fu-berlin.de/linux-minidisc/doku.php?id=start#building_and_running)
 ```bash
 brew update
@@ -23,3 +24,7 @@ brew link --force qt5
 ```
 
 ## How-to ##
+* Insert the Hi-MD formatted disc into the MD player. The player will be switched on automatically
+* Connect the MD player with the computer via USB port
+* Open the *"qhimdtransfer-0.9.14-4-gc4696f0-macos"* file folder, and open the *"QHiMDTransfer"* executable program.
+
