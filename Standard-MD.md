@@ -9,9 +9,9 @@ As this file is designed for audiovisual archivists, and considering that MiniDi
 
 ## My Equipment ##
 * iMac (macOS Catalina version 10.15.7) 
-* Sony MZ-M200 Hi-MD
+* Sony MZ-M200 Hi-MD recorder-player
 * USB 2.0 port to connect MD with Mac
-* Several MD discs with protected and unprotected audio information recorded in SD, LP2 and LP4 modes.
+* Several standard MD discs and Hi-MD discs with protected and unprotected audio information recorded in SD, LP2, LP4 and Hi-MD modes.
 
 
 ## Workflow ##
