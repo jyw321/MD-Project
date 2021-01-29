@@ -28,9 +28,18 @@ brew link --force qt5
 * Connect the MD player with the computer via USB port
 * Because Hi-MD is not only compatible with audio information storage, but also can save non-audio digital files, at this point, the MD player is mounted to the computer as an external drive
 
-* Open the *"qhimdtransfer-0.9.14-4-gc4696f0-macos"* file folder, and open the GUI *"QHiMDTransfer"* executable program. 
+* Open the *"qhimdtransfer-0.9.14-4-gc4696f0-macos"* file folder, and open the GUI *"QHiMDTransfer"* executable program. (*Security and Privacy setting may need to change in order to open the application*)
+
 ![qhimdtransfer](qhimdtransfer.jpg)
 
 * The GUI version of the application looks like this:
 ![qhimdtransfer-gui](qhimdtransfer-gui.png)
+
+* The GUI shows the number of tracks, length, recording modes, protection status, and recording date and time. 
+* On the left-hand side of the application, select the tracks you want to transfer. On the right-hand side, select the directory for saving the tracks.
+* Hit the red arrow and start the transferring process.
+
+[Transfer]
+
+* The transferred audio files are saved as .wav format in the chosen local directory.
 
