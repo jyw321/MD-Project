@@ -9,6 +9,8 @@ As this file is designed for audiovisual archivists, and considering that MiniDi
 
 NetMDPython scripts with Hi-MD compatability are still under development. More discussion could be found [here](https://github.com/gavinbenda/platinum-md/issues/40) and [here](https://github.com/gavinbenda/platinum-md/issues/11).
 
+For transferring Hi-MD formatted contents, you may follow along [here](Hi-MD.md)
+
 ## My Equipment ##
 * iMac (macOS Catalina version 10.15.7) 
 * Sony MZ-M200 Hi-MD recorder-player
