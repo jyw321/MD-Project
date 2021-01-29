@@ -15,8 +15,8 @@ Traditionally, it is only through Sony's proprietary Windows-only software Sonic
 
 
 ## Where to Go ##
-* To transfer contents from standard-MD formatted discs to local computer, visit [here](Standard-MD.md)
-* To transfer contents from Hi-MD formatted discs to local computer, visit [here](Hi-MD.md)
+* To transfer contents from **standard-MD formatted discs** (including SP, LP2, LP4) to local computer, visit [here](Standard-MD.md)
+* To transfer contents from **Hi-MD formatted discs** (including PCM, Hi-SP, Hi-LP) to local computer, visit [here](Hi-MD.md)
 
 #### *Don't know the format?* ####
 * Hi-MD is indicated on the surface of a Hi-MD disc, while standard MD discs do not have the "Hi-MD" logo
