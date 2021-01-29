@@ -5,7 +5,7 @@ This is my testing project based on the existing coding scripts established by [
 
 This project is specifically practical to audiovisual archivists whose organizations hold collections in MiniDisc format. In the early 2000s, many cultural institutions utilized MiniDisc to record interviews, live performance and broadcasting records. However, with the obsolesence of MiniDisc format, it is important for archivists to retrieve the digital contents originally recorded on MiniDiscs and transfer them into local computer directory for further preservation treatments. 
 
-This file is designed for needed archivists to follow-along for retrieving contents from MiniDiscs.
+This file is intended to provide a follow-along reference to archivists for retrieving contents from MiniDiscs.
 
 ## About MD ##
 In 1992, Sony launched a born-digital optical disc based media format called MiniDisc. Audio information is written onto discs via the magneto-optical mechanism. Sony invented the ATRAC (Adaptive Transform Acoustic Coding) algorithm to largely compress audio data being recorded. Therefore, the size of MiniDisc is significantly smaller than its counterpart compact disc (CD). With the magneto-optical mechanism, MiniDisc is rewritable and track-tracing enabled. Sony discontinued manufacturing MiniDisc recorder-player in 2013, making MiniDisc an obsolete media format. Over the years, there are two types of discs being invented: standard MD and Hi-MD. Based on different ATRAC data processing mechanisms, audio information could be recorded in standard mode (SD) and long-play mode (LP2 and LP4). NetMD was launched in the early 2000s, allowing users to directly transfer music tracks from personal computers to MD recorder-players via a USB port through a Sony proprietary software. With the invention of Hi-MD discs and Hi-MD recorder-player, the ATRAC algorithm is upgraded to a system called DWDD (Domain Wall Displacement Detection), which is a data compression mechanism applied on recording Hi-MDs. Hi-MD could carry audio information and non-audio digital files. 
@@ -15,8 +15,8 @@ Traditionally, it is only through Sony's proprietary Windows-only software Sonic
 
 
 ## Where to Go ##
-* For transfer contents from standard-MD formatted discs to local computer, visit [here](Standard MD.md).
-* For transfer contents from Hi-MD formatted discs to local computer, visit [here](Hi-MD.md)
+* To transfer contents from standard-MD formatted discs to local computer, visit [here](Standard-MD.md)
+* To transfer contents from Hi-MD formatted discs to local computer, visit [here](Hi-MD.md)
 
 ## My Equipment ##
 * iMac (macOS Catalina version 10.15.7) 
