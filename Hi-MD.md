@@ -26,8 +26,11 @@ brew link --force qt5
 ## How-to ##
 * Insert the Hi-MD formatted disc into the MD player. The player will be switched on automatically
 * Connect the MD player with the computer via USB port
-* Open the *"qhimdtransfer-0.9.14-4-gc4696f0-macos"* file folder, and open the *"QHiMDTransfer"* executable program. (This is the GUI version)
+* Because Hi-MD is not only compatible with audio information storage, but also can save non-audio digital files, at this point, the MD player is mounted to the computer as an external drive
+
+* Open the *"qhimdtransfer-0.9.14-4-gc4696f0-macos"* file folder, and open the GUI *"QHiMDTransfer"* executable program. 
 ![qhimdtransfer](qhimdtransfer.jpg)
 
-
+* The GUI version of the application looks like this:
+![qhimdtransfer-gui]()
 
