@@ -39,7 +39,7 @@ brew link --force qt5
 * On the left-hand side of the application, select the tracks you want to transfer. On the right-hand side, select the directory for saving the tracks.
 * Hit the red arrow and start the transferring process.
 
-[Transfer]
+![Transfer](Transfer.png)
 
 * The transferred audio files are saved as .wav format in the chosen local directory.
 
