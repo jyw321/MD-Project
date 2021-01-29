@@ -32,5 +32,5 @@ brew link --force qt5
 ![qhimdtransfer](qhimdtransfer.jpg)
 
 * The GUI version of the application looks like this:
-![qhimdtransfer-gui]()
+![qhimdtransfer-gui](qhimdtransfer-gui.png)
 
