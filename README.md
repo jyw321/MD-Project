@@ -18,8 +18,12 @@ Traditionally, it is only through Sony's proprietary Windows-only software Sonic
 * To transfer contents from standard-MD formatted discs to local computer, visit [here](Standard-MD.md)
 * To transfer contents from Hi-MD formatted discs to local computer, visit [here](Hi-MD.md)
 
-### *Don't know the format is your disc?* ###
-
+#### *Don't know the format?* ####
+* Hi-MD is indicated on the surface of a Hi-MD disc, while standard MD discs do not have the "Hi-MD" logo
+* But even standard MDs can be formatted in Hi-MD format and record audio in Hi-MD modes with a Hi-MD recorder-player
+* If you are not sure about the format, the way to find out is a little bit tricky. 
+  * You can connect your MD to your computer and visit [web-minidisc](https://stefano.brilli.me/webminidisc/) on Google Chrome browser. If it successfully identify the player and show the stored contents, the tracks are recorded in standard mode.
+  * If web-minidisc fails to identify your player or your disc, probably your disc is Hi-MD or formatted to Hi-MD mode.
 
 ## My Equipment ##
 * iMac (macOS Catalina version 10.15.7) 
