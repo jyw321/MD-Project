@@ -18,6 +18,8 @@ Traditionally, it is only through Sony's proprietary Windows-only software Sonic
 * To transfer contents from standard-MD formatted discs to local computer, visit [here](Standard-MD.md)
 * To transfer contents from Hi-MD formatted discs to local computer, visit [here](Hi-MD.md)
 
+#
+
 ## My Equipment ##
 * iMac (macOS Catalina version 10.15.7) 
 * Sony MZ-M200 Hi-MD recorder-player
