@@ -7,6 +7,8 @@ The current NetMDPython are designed for NetMD devices. For now, they can work w
 
 As this file is designed for audiovisual archivists, and considering that MiniDisc archival collections usually store analog-input audio information (e.g. interview), there is good chance that contents would be mostly unprotected.
 
+NetMDPython scripts with Hi-MD compatability are still under development. More discussion could be found [here](https://github.com/gavinbenda/platinum-md/issues/40) and [here](https://github.com/gavinbenda/platinum-md/issues/11).
+
 ## My Equipment ##
 * iMac (macOS Catalina version 10.15.7) 
 * Sony MZ-M200 Hi-MD recorder-player
