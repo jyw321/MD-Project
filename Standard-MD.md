@@ -116,4 +116,4 @@ Stream size                              : 258 KiB (100%)
 
 ### Troubleshoot ###
 
-* **If the above command-lines fail to work for no obvious reason, try unplug the MD player from the computer, unload the disc, terminate the Terminal, and re-connect everything again.**
+* If the above command-lines fail to work for no obvious reason, try unplug the MD player from the computer, unload the disc, terminate the Terminal, and re-connect everything again.
