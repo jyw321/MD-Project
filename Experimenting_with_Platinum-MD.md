@@ -87,4 +87,7 @@ brew install --force pkg-config qt5 mad libid3tag libtag glib libusb libusb-comp
 
 ![after-transfer-himd](after-transfer-himd.png)
 
-(*to play .oma file, VLC works. But for .pcm format, Adobe Audition seems the only choice.)
+(*to play .oma file, VLC works. But for .pcm format, Adobe Audition seems the only choice.*)
+
+
+<span style="color:red">According to Platinum-MD developers, Hi-MD functionality is still experimental. ONLY USE FOR DISCS YOU ARE PREPARED TO ERASE (OR TO PLAY AROUND WITH). Renaming/erasing tracks/discs is currently not supported for Hi-MD.</span>
