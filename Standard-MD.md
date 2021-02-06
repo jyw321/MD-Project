@@ -20,6 +20,7 @@ For transferring Hi-MD formatted contents, you may follow along [here](Hi-MD.md)
 
 
 ## Workflow ##
+
 ### Set-up ###
 * Download and install [Macports](http://www.macports.org).
 * After installing macports, you'll need to modify your .bashrc in your home-directory by adding ”/opt/local/bin” to the PATH-environment. In the terminal (Applications→Utilities→Terminal), type: 
@@ -58,7 +59,7 @@ cd linux-minidisc/netmd
 ![list contents protected](protected.png)
 
 
-### How-to Upload Contents from MD to Mac ###
+### How-to Upload Contents from MD to Computer ###
 * Using, Sony's MZ-RH1/M200, you can upload tracks from MD player to your computer.
 * Before you can successfully upload tracks from MD player to computer, you need to install FFmpeg (an open-source media encoding and processing application), which will be used for regconizing and transcoding ATRAC information.
 * To install FFmpeg, 
@@ -77,20 +78,31 @@ sudo port install ffmpeg-devel
 
 ![upload](upload-netmd.png)
 
-* Upon retrieving the tracks, they will be saved in a subfolder under the *netmd* directory. SD tracks are wrapped as .aea format (in atrac1 codec) and LP2/LP4 tracks are wrapped in .wav format (in atrac3 codec). 
+
+
+## Results ##
+
+* Upon retrieving the tracks, they will be saved in a subfolder under the *netmd* directory. 
+
+* **Tracks originally recorded in SP mode are wrapped as .aea format (in atrac1 codec). 
+
+* **Tracks originally recorded in LP2/LP4 modes are wrapped in .wav format (in atrac3 codec). 
 (*MediaInfo* or *ExifTool* are not able to identify the atrac1 codec. But *FFProbe* does; Both *MediaInfo* and *FFprobe* can identify the atract3 codec.)
 
-* The uploaded tracks saved in your local directory will be in this structure:
+* The uploaded tracks saved in your destination directory will be in this structure:
 
 ![after_upload](after_upload.png)
+
 
 * *FFprobe* shows .aea file (tracks recorded in SP mode) technical metadata like this:
 ```
  Duration: 00:00:32.72, bitrate: 292 kb/s
     Stream #0:0: Audio: atrac1, 44100 Hz, stereo, fltp, 292 kb/s
  ```
+
 * *MediaInfo* shows .wav (tracks recorded in LP2 and LP4 modes) technical metadata like this:
 ```
+Complete name                            : /Users/klavierwong/Downloads/Test2-SDMode-01262021/002-LP4.at3
 Format                                   : Wave
 File size                                : 258 KiB
 Duration                                 : 31 s 953 ms
