@@ -2,7 +2,7 @@
 
 The workflow below is still under experimenting. 
 
-[Platinum-MD](https://github.com/gavinbenda/platinum-md.git) is a project aims to make uploading audio files to NetMD players seamless and automatic. It is also a project based on the linux-minidisc codes. Platinum-MD has both [GitHub source codes](https://github.com/gavinbenda/platinum-md.git) and [GUI-software](https://platinum-md.app) for direct download. Originally, it was designed for uploading audio tracks from local computers to NetMDs without involving any proprietary software such as SonicStage. Lately, [a latest version](https://github.com/.../platinum-md/releases/tag/v1.0.0-RC1) is pre-released, bringing forth a set of new features including compatibility with Hi-MD and allowing uploading audio tracks from MD to computer. 
+[Platinum-MD](https://github.com/gavinbenda/platinum-md.git) is a project aims to make uploading audio files to NetMD players seamless and automatic. It is also a project based on the linux-minidisc codes. Platinum-MD has both [GitHub source codes](https://github.com/gavinbenda/platinum-md.git) and [GUI-software](https://platinum-md.app) for direct download. Originally, it was designed for uploading audio tracks from local computers to NetMDs without involving any proprietary software such as SonicStage. Lately, [a latest version](https://github.com/gavinbenda/platinum-md/releases/tag/v1.0.0-RC1) is pre-released, bringing forth a set of new features including compatibility with Hi-MD and allowing uploading audio tracks from MD to computer. 
 
 The tests I made below is based on the latest pre-released v1.0.0-RC1 version.
 
@@ -27,3 +27,23 @@ brew install --force pkg-config qt5 mad libid3tag libtag glib libusb libusb-comp
 * *troubleshoots found [here](https://github.com/gavinbenda/platinum-md#troubleshooting), but these problems are more NetMD oriented*
 
 ## How-to ##
+## Standard MD ##
+* Once you insert your disc, mount your MD player to your computer, and open the Platinum-MD software, the software should be able to locate the MD player and read the disc like this:
+[platinum-standard](platinum-sd.png)
+
+* To process a disc formatted in standard mode, remember to set Platinum-MD in the "MD" mode (at top bar).
+[MD-mode](MD-mode.png)
+
+* Open `settings`, click `Hi-MD options` (*yes, even though you are not processing a Hi-MD*). 
+* Under `File format to transfer tracks to computer`, choose `AEA/AT3(Do not convert audio)`. 
+* Choose the directory you wish you save your transferred audio tracks. Click `OK`.
+[settings](settings.png)
+
+* Back to the main interface, on the right-hand-side, select the tracks you want to transfer to your computer.
+(*make sure the tracks are `unlocked` and in non-Hi-MD mode*)
+* Click `<<Transfer`, and the transfer process will commence.
+
+* Once the transfer process is completed, at your chosen destination, the transferred tracks will be placed in a file folder with the same title as the disc.
+* SP-mode recorded tracks will be saved as .aea format. LP2 and LP4 recorded tracks will be saved as .at3 format (means ATRAC3).
+(*ffprobe is able to identify the atrac and atrac3 codec along with other technical metadata, such as sampling rate and bit rate*)
+[after-transfer-sd](after-transfer-sd.png)
