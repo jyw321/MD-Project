@@ -6,3 +6,10 @@ The workflow below is still under experimenting.
 
 The tests I made below is based on the latest pre-released v1.0.0-RC1 version.
 
+## My Equipment ##
+* iMac (macOS Catalina version 10.15.7) 
+* *homebrew* and *ffmepg* installed
+* Sony MZ-M200 Hi-MD recorder-player
+* USB 2.0 port to connect MD with Mac
+* Several standard MD discs and Hi-MD discs with protected and unprotected audio information recorded in SD, LP2, LP4 and Hi-MD modes.
+
