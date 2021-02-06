@@ -19,8 +19,8 @@ The tests I made below is based on the latest pre-released v1.0.0-RC1 version.
 brew install --force pkg-config qt5 mad libid3tag libtag glib libusb libusb-compat libgcrypt ffmpeg json-c && brew link --force qt5
 ```
 
-* Download the Platinum-MD .dmg file. [Latest version here](https://github.com/.../platinum-md/releases/tag/v1.0.0-RC1)
-*(or direct download [here](https://github.com/.../v1.0.0-RC1/platinum-md-1.0.0.dmg))*
+* Download the Platinum-MD .dmg file. [Latest version here](https://github.com/gavinbenda/platinum-md/releases/tag/v1.0.0-RC1)
+*(or direct download [here](https://github.com/gavinbenda/platinum-md/releases/download/v1.0.0-RC1/platinum-md-1.0.0.dmg))*
 * Open the .dmg file. Drag the file to the applications folder.
 * *Remember to allow your system to open the application by setting up the `Security & Privacy`*
 * Once Platinum-MD is installed, you can open it like opening any other applications.
