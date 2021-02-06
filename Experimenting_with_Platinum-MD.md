@@ -60,6 +60,7 @@ brew install --force pkg-config qt5 mad libid3tag libtag glib libusb libusb-comp
 
 
 
+
 ## Hi-MD ##
 **According to Platinum-MD developers, Hi-MD functionality is still experimental. ONLY USE FOR DISCS YOU ARE PREPARED TO ERASE (OR TO PLAY AROUND WITH). Renaming/erasing tracks/discs is currently not supported for Hi-MD.**
 
