@@ -55,11 +55,42 @@ brew install --force pkg-config qt5 mad libid3tag libtag glib libusb libusb-comp
 
 * `SP-mode` recorded tracks will be saved as `.aea` format. `LP2` and `LP4` recorded tracks will be saved as `.at3` format (means ATRAC3).
 
-(*ffprobe is able to identify the atrac and atrac3 codec along with other technical metadata, such as sampling rate and bit rate*)
+(*FFprobe is able to identify the atrac and atrac3 codec along with other technical metadata, such as sampling rate and bit rate*)
 (*to play files in .aea and .at3 formats, VLC is a good bet.*)
 
 ![after-transfer-sd](after-transfer-sd.png)
 
+
+* *FFprobe* identifies the technical metadata of the `.aea` file like this:
+```
+Input #0, aea, from '/Users/klavierwong/Downloads/Test2-SDMode-01262021-transferPlatinum/003-SP.aea':
+  Duration: 00:00:32.72, bitrate: 292 kb/s
+    Stream #0:0: Audio: atrac1, 44100 Hz, stereo, fltp, 292 kb/s
+```
+
+
+* *MediaInfo* identifies the technical metadata of the `.at3` file like this:
+```
+Complete name                            : /Users/klavierwong/Downloads/Test2-SDMode-01262021-transferPlatinum/002-LP4.at3
+Format                                   : Wave
+File size                                : 258 KiB
+Duration                                 : 31 s 953 ms
+Overall bit rate                         : 66.2 kb/s
+IsTruncated                              : Yes
+FileExtension_Invalid                    : act at9 wav
+
+Audio
+Format                                   : Atrac3
+Format/Info                              : Adaptive Transform Acoustic Coding 3
+Codec ID                                 : 270
+Codec ID/Hint                            : Sony
+Duration                                 : 31 s 953 ms
+Bit rate                                 : 66.1 kb/s
+Channel(s)                               : 2 channels
+Sampling rate                            : 44.1 kHz
+Compression mode                         : Lossy
+Stream size                              : 258 KiB (100%)
+```
 
 
 
@@ -92,11 +123,36 @@ brew install --force pkg-config qt5 mad libid3tag libtag glib libusb libusb-comp
 * Click `<<Transfer`, and the transfer process will commence.
 
 * Once the transfer process is completed, at your chosen destination, the transferred tracks will be placed in a file folder with the same title as the disc.
-* Hi-MD-uncompressed recorded tracks will be saved as .pcm format. Hi-SP and Hi-LP recorded tracks will be saved as .oma format (ATRAC3 plus).
+* `Hi-MD lossless-PCM recorded` tracks will be saved as `.pcm` format. 
+*`Hi-SP` and `Hi-LP` recorded tracks will be saved as `.oma` format.
 
 ![after-transfer-himd](after-transfer-himd.png)
 
-(*to play .oma file, VLC works. But for .pcm format, Adobe Audition seems the only choice.*)
+
+* `.pcm` format files are unidentified by either *FFprobe* or *MediaInfo*.
+
+* *MediaInfo* obtains technical metadata of `.oma` files like this:
+```
+Complete name                            : /Users/klavierwong/Downloads/Unknown-transferPlatinum/001-(null) - (null).oma
+Format                                   : OpenMG
+File size                                : 263 KiB
+Duration                                 : 25 s 168 ms
+Overall bit rate                         : 85.6 kb/s
+
+Audio
+Format                                   : Atrac3
+Format/Info                              : Adaptive Transform Acoustic Coding 3
+Duration                                 : 25 s 168 ms
+Bit rate                                 : 64.8 kb/s
+Channel(s)                               : 2 channels
+Channel layout                           : L R
+Sampling rate                            : 44.1 kHz
+Compression mode                         : Lossy
+Stream size                              : 199 KiB (76%)
+Encryption                               : SDMI
+```
+
+(***to play .oma file, VLC works. But for .pcm format, Adobe Audition seems the only choice.***)
 
 
 ## Troubleshoot ##
