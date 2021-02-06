@@ -1,7 +1,7 @@
 # MD
 
 ## Purpose ##
-This is my testing project based on the existing coding scripts established by [linux-minidisc](https://github.com/glaubitz/linux-minidisc) and [NetMDPython](https://wiki.physik.fu-berlin.de/linux-minidisc/doku.php?id=netmdpython#getting_the_code) to extract digital contents from my portable MD player to my computer. 
+This is my testing project based on the existing scripts and efforts by [linux-minidisc](https://github.com/glaubitz/linux-minidisc), [NetMDPython](https://wiki.physik.fu-berlin.de/linux-minidisc/doku.php?id=netmdpython#getting_the_code) and [Platinum-MD](https://github.com/gavinbenda/platinum-md)to extract digital contents from my portable MD player to my computer. 
 
 This project is specifically practical to audiovisual archivists whose organizations hold collections in MiniDisc format. In the early 2000s, many cultural institutions utilized MiniDisc to record interviews, live performance and broadcasting records. However, with the obsolesence of MiniDisc format, it is important for archivists to retrieve the digital contents originally recorded on MiniDiscs and transfer them into local computer directory for further preservation treatments. 
 
@@ -17,6 +17,7 @@ Traditionally, it is only through Sony's proprietary Windows-only software Sonic
 ## Where to Go ##
 * To transfer contents from **standard-MD formatted discs** (including SP, LP2, LP4) to local computer, visit [here](Standard-MD.md)
 * To transfer contents from **Hi-MD formatted discs** (including PCM, Hi-SP, Hi-LP) to local computer, visit [here](Hi-MD.md)
+* The above two methods tend to extract the original atrac-format tracks by automatically converting them into .WAV format, except for the tracks recorded in SP mode. If you want to retrieve audio tracks in its original atrac-format, you may also want to try this under-experimenting approach by visiting here.
 
 #### *Don't know the format?* ####
 * Hi-MD is indicated on the surface of a Hi-MD disc, while standard MD discs do not have the "Hi-MD" logo
@@ -27,7 +28,7 @@ Traditionally, it is only through Sony's proprietary Windows-only software Sonic
 
 ## My Equipment ##
 * iMac (macOS Catalina version 10.15.7) 
-* Sony MZ-M200 Hi-MD recorder-player
+* Sony MZ-M200 Hi-MD recorder-player (an equivalent to MZ-RH1, the latest model of Sony portable MD)
 * USB 2.0 port to connect MD with Mac
 * Several standard MD discs and Hi-MD discs with protected and unprotected audio information recorded in SD, LP2, LP4 and Hi-MD modes.
 
