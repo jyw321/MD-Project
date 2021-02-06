@@ -32,12 +32,14 @@ brew install --force pkg-config qt5 mad libid3tag libtag glib libusb libusb-comp
 ![platinum-standard](platinum-sd.png)
 
 * To process a disc formatted in standard mode, remember to set Platinum-MD in the "MD" mode (at top bar).
+
 ![MD-mode](MD-mode.png)
 
 
 * Open `settings`, click `Hi-MD options` (*yes, even though you are not processing a Hi-MD*). 
 * Under `File format to transfer tracks to computer`, choose `AEA/AT3(Do not convert audio)`. 
 * Choose the directory you wish you save your transferred audio tracks. Click `OK`.
+
 ![settings](settings.png)
 
 
@@ -49,4 +51,6 @@ brew install --force pkg-config qt5 mad libid3tag libtag glib libusb libusb-comp
 * Once the transfer process is completed, at your chosen destination, the transferred tracks will be placed in a file folder with the same title as the disc.
 * SP-mode recorded tracks will be saved as .aea format. LP2 and LP4 recorded tracks will be saved as .at3 format (means ATRAC3).
 (*ffprobe is able to identify the atrac and atrac3 codec along with other technical metadata, such as sampling rate and bit rate*)
+(*to play files in .aea and .at3 formats, VLC is a good bet.*)
+
 ![after-transfer-sd](after-transfer-sd.png)
