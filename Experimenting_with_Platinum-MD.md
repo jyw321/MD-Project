@@ -58,6 +58,9 @@ brew install --force pkg-config qt5 mad libid3tag libtag glib libusb libusb-comp
 
 
 ### Hi-MD ###
+**According to Platinum-MD developers, Hi-MD functionality is still experimental. ONLY USE FOR DISCS YOU ARE PREPARED TO ERASE (OR TO PLAY AROUND WITH). Renaming/erasing tracks/discs is currently not supported for Hi-MD.**
+
+
 * Insert your Hi-MD disc, mount your MD player to your computer, and open the Platinum-MD software, the software might NOT be able to detect the device at once, like this:
 
 ![Not_detected](Not_detected.png)
@@ -90,4 +93,3 @@ brew install --force pkg-config qt5 mad libid3tag libtag glib libusb libusb-comp
 (*to play .oma file, VLC works. But for .pcm format, Adobe Audition seems the only choice.*)
 
 
-<font color="red">According to Platinum-MD developers, Hi-MD functionality is still experimental. ONLY USE FOR DISCS YOU ARE PREPARED TO ERASE (OR TO PLAY AROUND WITH). Renaming/erasing tracks/discs is currently not supported for Hi-MD.</font>
