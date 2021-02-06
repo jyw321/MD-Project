@@ -88,7 +88,27 @@ sudo port install ffmpeg-devel
 ```
  Duration: 00:00:32.72, bitrate: 292 kb/s
     Stream #0:0: Audio: atrac1, 44100 Hz, stereo, fltp, 292 kb/s
-    ```
+ ```
+* *MediaInfo* shows .wav file (tracks recorded in LP2 and LP4 modes) like this:
+```
+Format                                   : Wave
+File size                                : 258 KiB
+Duration                                 : 31 s 953 ms
+Overall bit rate                         : 66.2 kb/s
+IsTruncated                              : Yes
 
+Audio
+Format                                   : Atrac3
+Format/Info                              : Adaptive Transform Acoustic Coding 3
+Codec ID                                 : 270
+Codec ID/Hint                            : Sony
+Duration                                 : 31 s 953 ms
+Bit rate                                 : 66.1 kb/s
+Channel(s)                               : 2 channels
+Sampling rate                            : 44.1 kHz
+Compression mode                         : Lossy
+Stream size                              : 258 KiB (100%)
+```
 
-* *If the above command-lines fail to work out of blue, try unplug the MD player from the computer, unload the disc, terminate the Terminal, and re-connect everything again.*
+### Troubleshoot ###
+* **If the above command-lines fail to work for no obvious reason, try unplug the MD player from the computer, unload the disc, terminate the Terminal, and re-connect everything again.**
