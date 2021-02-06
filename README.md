@@ -28,7 +28,8 @@ Traditionally, it is only through Sony's proprietary Windows-only software Sonic
 
 ## My Equipment ##
 * iMac (macOS Catalina version 10.15.7) 
-* Sony MZ-M200 Hi-MD recorder-player (an equivalent to MZ-RH1, the latest model of Sony portable MD)
+* *homebrew* and *ffmepg* installed
+* Sony MZ-M200 Hi-MD recorder-player (an equivalent to MZ-RH1, the latest model of Sony portable MD recorder-player)
 * USB 2.0 port to connect MD with Mac
 * Several standard MD discs and Hi-MD discs with protected and unprotected audio information recorded in SD, LP2, LP4 and Hi-MD modes.
 
