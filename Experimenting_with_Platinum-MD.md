@@ -26,9 +26,12 @@ brew install --force pkg-config qt5 mad libid3tag libtag glib libusb libusb-comp
 * Once Platinum-MD is installed, you can open it like opening any other applications.
 * *troubleshoots found [here](https://github.com/gavinbenda/platinum-md#troubleshooting), but these problems are more NetMD oriented*
 
-## How-To ##
-### Standard MD ###
+## How-Tos ##
+
+
+## Standard MD ##
 * Once you insert your disc, mount your MD player to your computer, and open the Platinum-MD software, the software should be able to locate the MD player and read the disc like this:
+
 ![platinum-standard](platinum-sd.png)
 
 * To process a disc formatted in standard mode, remember to set Platinum-MD in the `MD` mode (at the top bar).
@@ -57,7 +60,7 @@ brew install --force pkg-config qt5 mad libid3tag libtag glib libusb libusb-comp
 
 
 
-### Hi-MD ###
+## Hi-MD ##
 **According to Platinum-MD developers, Hi-MD functionality is still experimental. ONLY USE FOR DISCS YOU ARE PREPARED TO ERASE (OR TO PLAY AROUND WITH). Renaming/erasing tracks/discs is currently not supported for Hi-MD.**
 
 
@@ -75,7 +78,7 @@ brew install --force pkg-config qt5 mad libid3tag libtag glib libusb libusb-comp
 
 ![platinum-hi](platinum-hi.png)
 
-* (*at this point, chances are you cannot edit the title of the disc and the tracks as the Hi-MD mode is still under developing.*)
+* (*at this point, unfortunately you cannot edit the title of the disc and the tracks as the Hi-MD mode is still under developing.*)
 
 * Open `settings`, click `Hi-MD options`. 
 * Under `File format to transfer tracks to computer`, choose `AEA/AT3(Do not convert audio)`. 
