@@ -84,7 +84,7 @@ sudo port install ffmpeg-devel
 
 ![after_upload](after_upload.png)
 
-* *FFprobe* shows .aea technical metadata like this:
+* *FFprobe* shows .aea file (tracks recorded in SP mode) technical metadata like this:
 ```
  Duration: 00:00:32.72, bitrate: 292 kb/s
     Stream #0:0: Audio: atrac1, 44100 Hz, stereo, fltp, 292 kb/s
@@ -110,5 +110,10 @@ Compression mode                         : Lossy
 Stream size                              : 258 KiB (100%)
 ```
 
+
+* **As shown above, the SP tracks will be put into an .aea wrapper with atrac1 codec. LP2/LP4 tracks are wrapped in .wav but the codec reads atrac3, which means there’s no generational loss. This also means that, with the atrac1 and atrac3 codecs in the tracks, audio players with atrac-encoding scheme are required to play back the tracks. FFmpeg and VLA are good choices.**
+
+
 ### Troubleshoot ###
+
 * **If the above command-lines fail to work for no obvious reason, try unplug the MD player from the computer, unload the disc, terminate the Terminal, and re-connect everything again.**
