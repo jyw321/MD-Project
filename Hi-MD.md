@@ -96,4 +96,6 @@ Encryption                               : SDMI
 ```
 
 
+### Troubleshoot ###
 
+* If the above process fails to work for no obvious reason, try unplug the MD player from the computer, unload the disc, terminate the QHiMDTransfer, and re-connect and re-open everything again.
