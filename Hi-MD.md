@@ -44,5 +44,5 @@ brew link --force qt5
 
 * After transfer completes, in the chosen destination, tracks originally recorded in lossless PCM mode are wrapped in .wav, while tracks originally recorded in Hi-SP and Hi-LP modes are wrapped in .oma. 
 
-
+![after-transfer-qhimd](after-transfer-qhimd.png)
 
