@@ -1,4 +1,4 @@
-# (still experimenting) Use Platinum-MD to retrieve audio tracks in its original ATRAC format#
+# (still experimenting) Use Platinum-MD to retrieve audio tracks in its original ATRAC format #
 
 The workflow below is still under experimenting. 
 
