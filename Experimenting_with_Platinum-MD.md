@@ -96,8 +96,9 @@ brew install --force pkg-config qt5 mad libid3tag libtag glib libusb libusb-comp
 
 (*to play .oma file, VLC works. But for .pcm format, Adobe Audition seems the only choice.*)
 
+
 ## Troubleshoot ##
 * *troubleshoots of installation could be found [here](https://github.com/gavinbenda/platinum-md#troubleshooting), but these problems are more NetMD oriented*
 
-***The operation of this latest version Platinum-MD is still a bit wobbly. Sometimes, after you transfer your first batch of tracks, the software would freeze. At this point, close the software and unplug the MD player from the computer. Then again mount the MD player to the computer and restart Platinum-MD. Things will get back to normal. This situation tends to occur to both standard MD and Hi-MD modes.***
+* ***The operation of this latest version Platinum-MD is still a bit wobbly. Sometimes, after you transfer your first batch of tracks, the software would freeze. At this point, close the software and unplug the MD player from the computer. Then again mount the MD player to the computer and restart Platinum-MD. Things will get back to normal. This situation tends to occur to both standard MD and Hi-MD modes.***
 
