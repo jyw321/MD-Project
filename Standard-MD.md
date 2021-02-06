@@ -77,12 +77,18 @@ sudo port install ffmpeg-devel
 
 ![upload](upload-netmd.png)
 
-* Upon retrieving the tracks, they will be saved in a subfolder under the *netmd* directory. SD tracks are saved as .aea format and LP2/LP4 tracks into .wav. 
-(MediaInfo or ExifTool are not able to identify the codec of the .aea format. But FFProbe could recognize the ATRAC1 codec of .aea files.)
+* Upon retrieving the tracks, they will be saved in a subfolder under the *netmd* directory. SD tracks are wrapped as .aea format (in atrac1 codec) and LP2/LP4 tracks are wrapped in .wav format (in atrac3 codec). 
+(*MediaInfo* or *ExifTool* are not able to identify the atrac1 codec. But *FFProbe* does; Both *MediaInfo* and *FFprobe* can identify the atract3 codec.)
 
 * The uploaded tracks saved in your local directory will be in this structure:
 
 ![after_upload](after_upload.png)
+
+* *FFprobe* shows .aea file like this:
+```
+ Duration: 00:00:32.72, bitrate: 292 kb/s
+    Stream #0:0: Audio: atrac1, 44100 Hz, stereo, fltp, 292 kb/s
+    ```
 
 
 * *If the above command-lines fail to work out of blue, try unplug the MD player from the computer, unload the disc, terminate the Terminal, and re-connect everything again.*
