@@ -26,12 +26,12 @@ brew install --force pkg-config qt5 mad libid3tag libtag glib libusb libusb-comp
 * Once Platinum-MD is installed, you can open it like opening any other applications.
 * *troubleshoots found [here](https://github.com/gavinbenda/platinum-md#troubleshooting), but these problems are more NetMD oriented*
 
-## How-to ##
-## Standard MD ##
+## How-To ##
+### Standard MD ###
 * Once you insert your disc, mount your MD player to your computer, and open the Platinum-MD software, the software should be able to locate the MD player and read the disc like this:
 ![platinum-standard](platinum-sd.png)
 
-* To process a disc formatted in standard mode, remember to set Platinum-MD in the "MD" mode (at top bar).
+* To process a disc formatted in standard mode, remember to set Platinum-MD in the `MD` mode (at the top bar).
 
 ![MD-mode](MD-mode.png)
 
@@ -44,7 +44,7 @@ brew install --force pkg-config qt5 mad libid3tag libtag glib libusb libusb-comp
 
 
 * Back to the main interface, on the right-hand-side, select the tracks you want to transfer to your computer.
-(*make sure the tracks are `unlocked` and in non-Hi-MD mode*)
+(*make sure the tracks are `unlocked`*)
 * Click `<<Transfer`, and the transfer process will commence.
 
 
@@ -54,3 +54,37 @@ brew install --force pkg-config qt5 mad libid3tag libtag glib libusb libusb-comp
 (*to play files in .aea and .at3 formats, VLC is a good bet.*)
 
 ![after-transfer-sd](after-transfer-sd.png)
+
+
+
+### Hi-MD ###
+* Insert your Hi-MD disc, mount your MD player to your computer, and open the Platinum-MD software, the software might NOT be able to detect the device at once, like this:
+
+![Not_detected](Not_detected.png)
+
+
+* As Platinum-MD defaults the device as NetMD, so you need to click `Hi-MD` mode at the top bar. 
+
+![HiMD-mode](HiMD-mode.png)
+
+
+* Once you set Platinum-MD into Hi-MD mode, it should be able to recognize the device connection, like this:
+
+![platinum-hi](platinum-hi.png)
+
+* (*at this point, chances are you cannot edit the title of the disc and the tracks as the Hi-MD mode is still under developing.*)
+
+* Open `settings`, click `Hi-MD options`. 
+* Under `File format to transfer tracks to computer`, choose `AEA/AT3(Do not convert audio)`. 
+* Choose the directory you wish you save your transferred audio tracks. Click `OK`.
+
+* Back to the main interface, on the right-hand-side, select the tracks you want to transfer to your computer.
+(*make sure the tracks are `unlocked`*)
+* Click `<<Transfer`, and the transfer process will commence.
+
+* Once the transfer process is completed, at your chosen destination, the transferred tracks will be placed in a file folder with the same title as the disc.
+* Hi-MD-uncompressed recorded tracks will be saved as .pcm format. Hi-SP and Hi-LP recorded tracks will be saved as .oma format (ATRAC3 plus).
+
+![after-transfer-himd](after-transfer-himd.png)
+
+(*to play .oma file, VLC works. But for .pcm format, Adobe Audition seems the only choice.)
