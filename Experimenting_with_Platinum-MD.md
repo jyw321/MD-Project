@@ -13,3 +13,15 @@ The tests I made below is based on the latest pre-released v1.0.0-RC1 version.
 * USB 2.0 port to connect MD with Mac
 * Several standard MD discs and Hi-MD discs with protected and unprotected audio information recorded in SD, LP2, LP4 and Hi-MD modes.
 
+## Set up ##
+* In Terminal, type
+```bash
+brew install --force pkg-config qt5 mad libid3tag libtag glib libusb libusb-compat libgcrypt ffmpeg json-c && brew link --force qt5
+```
+
+* Download the Platinum-MD [latest version here](https://github.com/.../platinum-md/releases/tag/v1.0.0-RC1)
+* Open the .dmg file. Drag the file to the applications folder.
+* *Remember to allow your system to open the application by setting up the `Security & Privacy`*
+* Once Platinum-MD is installed, you can open it like opening any other applications.
+
+## How-to ##
