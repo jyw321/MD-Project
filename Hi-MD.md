@@ -95,6 +95,7 @@ Stream size                              : 199 KiB (76%)
 Encryption                               : SDMI
 ```
 
+* **Notably, audio tracks originally recorded in Hi-SP and Hi-LP modes are supposed to be encoded in `atrac3 plus`, NOT atrac3. But after transfer, the .oma files show `atrac3` codec, which needs further examination.
 
 ### Troubleshoot ###
 
