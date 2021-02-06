@@ -84,12 +84,12 @@ sudo port install ffmpeg-devel
 
 ![after_upload](after_upload.png)
 
-* *FFprobe* shows .aea file like this:
+* *FFprobe* shows .aea technical metadata like this:
 ```
  Duration: 00:00:32.72, bitrate: 292 kb/s
     Stream #0:0: Audio: atrac1, 44100 Hz, stereo, fltp, 292 kb/s
  ```
-* *MediaInfo* shows .wav file (tracks recorded in LP2 and LP4 modes) like this:
+* *MediaInfo* shows .wav (tracks recorded in LP2 and LP4 modes) technical metadata like this:
 ```
 Format                                   : Wave
 File size                                : 258 KiB
