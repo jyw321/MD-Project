@@ -42,5 +42,7 @@ brew link --force qt5
 
 ![Transfer](Transfer.png)
 
-* The transferred audio files are saved as .wav format in the chosen local directory.
+* After transfer completes, in the chosen destination, tracks originally recorded in lossless PCM mode are wrapped in .wav, while tracks originally recorded in Hi-SP and Hi-LP modes are wrapped in .oma. 
+
+
 
