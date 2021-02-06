@@ -43,14 +43,15 @@ brew link --force qt5
 ![Transfer](Transfer.png)
 
 
+## Results ##
 
 * After transfer completes, in the chosen destination, **tracks originally recorded in lossless PCM mode are wrapped in .wav**, while **tracks originally recorded in Hi-SP and Hi-LP modes are wrapped in .oma**. 
 
 ![after-transfer-qhimd](after-transfer-qhimd.png)
 
-* After transfer, *MediaInfo* obtains the technical metadata of the .wav file like this:
+* After transfer, *MediaInfo* obtains the technical metadata of the .wav files like this:
 ```
-Track 2.wav
+Complete name                            : /Users/klavierwong/Desktop/No Name/Track 2.wav
 Format                                   : Wave
 File size                                : 5.96 MiB
 Duration                                 : 35 s 434 ms
@@ -69,4 +70,27 @@ Sampling rate                            : 44.1 kHz
 Bit depth                                : 16 bits
 Stream size                              : 5.96 MiB (100%)
 ```
+
+* After transfer, *MediaInfo* obtains the technical metadata of the .oma files like this:
+```
+Complete name                            : /Users/klavierwong/Desktop/No Name/Track 3.oma
+Format                                   : OpenMG
+File size                                : 263 KiB
+Duration                                 : 25 s 168 ms
+Overall bit rate                         : 85.6 kb/s
+
+Audio
+Format                                   : Atrac3
+Format/Info                              : Adaptive Transform Acoustic Coding 3
+Duration                                 : 25 s 168 ms
+Bit rate                                 : 64.8 kb/s
+Channel(s)                               : 2 channels
+Channel layout                           : L R
+Sampling rate                            : 44.1 kHz
+Compression mode                         : Lossy
+Stream size                              : 199 KiB (76%)
+Encryption                               : SDMI
+```
+
+
 
