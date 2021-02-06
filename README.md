@@ -15,9 +15,9 @@ Traditionally, it is only through Sony's proprietary Windows-only software Sonic
 
 
 ## Where to Go ##
-* To transfer contents from **standard-MD formatted discs** (including SP, LP2, LP4) to local computer, visit [here](Standard-MD.md)
-* To transfer contents from **Hi-MD formatted discs** (including PCM, Hi-SP, Hi-LP) to local computer, visit [here](Hi-MD.md)
-* The above two methods tend to *automatically convert retrieved tracks into .wav format*, except for the tracks recorded in SP mode. If you DON'T want that, but hope to extract audio tracks in its original atrac-format, you may try this under-experimenting approach [here](Experimenting_with_Platinum-MD.md).
+* To transfer contents from ***standard-MD formatted discs*** (including SP, LP2, LP4) to local computer, visit [here](Standard-MD.md)
+* To transfer contents from ***Hi-MD formatted discs*** (including PCM, Hi-SP, Hi-LP) to local computer, visit [here](Hi-MD.md)
+* The above two methods tend to *automatically convert retrieved tracks into .wav format*, except for the tracks recorded in SP mode. If you **DON'T** want that, but hope to ***extract audio tracks in its original atrac-format***, you may try this under-experimenting approach [here](Experimenting_with_Platinum-MD.md).
 
 #### *Don't know the format?* ####
 * Hi-MD is indicated on the surface of a Hi-MD disc, while standard MD discs do not have the "Hi-MD" logo
