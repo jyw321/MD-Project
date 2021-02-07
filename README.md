@@ -1,7 +1,7 @@
 # MD
 
 ## Purpose ##
-This is my testing project based on the existing scripts and efforts by [linux-minidisc](https://github.com/glaubitz/linux-minidisc), [NetMDPython](https://wiki.physik.fu-berlin.de/linux-minidisc/doku.php?id=netmdpython#getting_the_code) and [Platinum-MD](https://github.com/gavinbenda/platinum-md.git) to extract digital contents from my portable MD player to my computer. 
+This is my testing project based on the existing scripts and efforts by projects [linux-minidisc](https://github.com/glaubitz/linux-minidisc), [NetMDPython](https://wiki.physik.fu-berlin.de/linux-minidisc/doku.php?id=netmdpython#getting_the_code) and [Platinum-MD](https://github.com/gavinbenda/platinum-md.git) to extract digital contents from my portable MD player to my computer. 
 
 This project is specifically practical to audiovisual archivists whose organizations hold collections in MiniDisc format. In the early 2000s, many cultural institutions utilized MiniDisc to record interviews, live performance and broadcasting records. However, with the obsolesence of MiniDisc format, it is important for archivists to retrieve the digital contents originally recorded on MiniDiscs and transfer them into local computer directory for further preservation treatments. 
 
