@@ -18,6 +18,7 @@ Traditionally, it is only through Sony's proprietary Windows-only software Sonic
 * **For SD-MD**: To transfer contents from ***standard-MD formatted discs*** (including SP, LP2, LP4) to local computer, visit [here](Standard-MD.md)
 * **For Hi-MD**: To transfer contents from ***Hi-MD formatted discs*** (including PCM, Hi-SP, Hi-LP) to local computer, visit [here](Hi-MD.md)
 * **For more "authentic taste"?**: The above two methods tend to *automatically wrapped retrieved tracks in .wav*, except for the tracks recorded in SP mode. If you **DON'T** want that, but hope to ***extract audio tracks in its more original atrac-format***, you may try this under-experimenting approach [here](Experimenting_with_Platinum-MD.md).
+* For transcoding ATRAC files to more accessible formats, visit [here](Transcoding.md)
 
 #### *Don't know the format?* ####
 * Hi-MD is indicated on the surface of a Hi-MD disc, while standard MD discs do not have the "Hi-MD" logo
@@ -25,6 +26,7 @@ Traditionally, it is only through Sony's proprietary Windows-only software Sonic
 * If you are not sure about the format, the way to find out is a little bit tricky. 
   * You can connect your MD to your computer and visit [web-minidisc](https://stefano.brilli.me/webminidisc/) on Google Chrome browser. If it successfully identify the player and show the stored contents, the tracks are recorded in standard mode.
   * If web-minidisc fails to identify your player or your disc, probably your disc is Hi-MD or formatted to Hi-MD mode.
+
 
 ## My Equipment ##
 * iMac (macOS Catalina version 10.15.7) 
