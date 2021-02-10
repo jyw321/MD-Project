@@ -33,5 +33,9 @@ Traditionally, it is only through Sony's proprietary Windows-only software Sonic
 * *homebrew* and *ffmepg* installed
 * Sony MZ-M200 Hi-MD recorder-player (an equivalent to MZ-RH1, the latest model of Sony portable MD recorder-player)
 * USB 2.0 port to connect MD with Mac
-* Several standard MD discs and Hi-MD discs with protected and unprotected audio information recorded in SD, LP2, LP4 and Hi-MD modes.
+* One MiniDisc formatted as standard MD with audio tracks recorded in SD, LP2 and LP4 modes
+* One MiniDisc formatted as Hi-MD with audio tracks recorded in Hi-MD PCM, Hi-SP and Hi-LP modes
+* Several mixtape MiniDiscs the author made via Sonic Stage in the early 2000s
+* Several pre-recorded commercial MiniDiscs (standard MD format)
+
 
