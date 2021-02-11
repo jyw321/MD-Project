@@ -11,7 +11,7 @@ After transcoding, the codec will be in MPEG version 1 and the wrapper will be i
 
 For transcoding files in `.aea` (ATRAC1 codec), `.oma`, `.at3` (ATRAC3 codec) wrapper, use FFmpeg to transcode into `.wav`:
 ```
-ffmpeg -i input_file -f mp3 output_file
+ffmpeg -i input_file -f wav output_file
 ```
 After transcoding, the codec will be in PCM and the wrapper will be in `.wav`.
 
