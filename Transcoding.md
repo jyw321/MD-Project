@@ -7,6 +7,14 @@ For transcoding files in `.aea` (ATRAC1 codec), `.oma`, `.at3` (ATRAC3 codec) wr
 ```
 ffmpeg -i input_file -f mp3 output_file
 ```
+After transcoding, the codec will be in MPEG version 1 and the wrapper will be in `.mp3`.
+
+For transcoding files in `.aea` (ATRAC1 codec), `.oma`, `.at3` (ATRAC3 codec) wrapper, use FFmpeg to transcode into `.wav`:
+```
+ffmpeg -i input_file -f mp3 output_file
+```
+After transcoding, the codec will be in PCM and the wrapper will be in `.wav`.
+
 
 For transcoding files in `.pcm` (Hi-MD lossless mode), the open-source free-to-download software [Audacity](https://www.audacityteam.org/download/) is a good bet. 
  * Follow instructions to download Audacity to your computer
